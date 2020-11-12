@@ -1,0 +1,17 @@
+//punto 9
+import example.*
+
+describe "tests"{
+	
+	const consumoDe5Megas = new ConsumoInternet(fechaDeRealizacion = new Date(day = 8, month = 10, year = 2020), cantidad = 5)
+	
+	test "consumir 5 megas"{
+		assert.equals(consumoDe5Megas.consumo(), 0.5)
+	}
+	
+	
+	
+	
+	
+		
+}
